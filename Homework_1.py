@@ -1,6 +1,8 @@
 # Name: Jungcher An
 # SBUID: 115236165
-#
+##################### SCORE ######################
+####### Very good work  6/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
 # 
 # ---------------------------- Exercise I ---------------------------------------
@@ -44,8 +46,8 @@ def euclidean_distance(x1, y1, x2, y2):
     return d
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
-    s1 = ((x1 - x2)**2 + (y1 - y2)**2)**1/2
-    s2 = ((x2 - x3)**2 + (y2 - y3)**2)**1/2
+    s1 = ((x1 - x2)**2 + (y1 - y2)**2)**1/2  # you had to use the previously defined function -> euclidean_distance(), istead of writing the whole equation all over again!
+    s2 = ((x2 - x3)**2 + (y2 - y3)**2)**1/2  # Please use parenthesis-'()' in the equations - one of the reasons why your answer is wrong for this question
     s3 = ((x1 - x3)**2 + (y1 - y3)**2)**1/2
    
     P = s1 + s2 + s3
@@ -57,7 +59,7 @@ def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
 # ---------------------------- Exercise III -------------------------------------
 # ----------------- Compute the area of a regular polygon -----------------------
 # TODO: Fill the functions deg2rad, apothem  and polygon_area 
-import math
+import math   # Please use parenthesis-'()' in the equations - one of the reasons why your answer is wrong for this question
 def deg2rad(deg):
     K = deg*math.pi/180
     return K

@@ -1,7 +1,7 @@
 # Name: Jungcher An
 # SBUID: 115236165
 ##################### SCORE ######################
-####### Very good work  6/10
+####### Very good work  8/10
 #################################################
 # Remove the ellipses (...) when writing your solutions.
 # 
